@@ -22,15 +22,19 @@ h2,
 p {
   text-align: center;
 }
-.item p {
-  /* display: inline-block; */
+.flavor,
+.dessert,
+.price {
+  display: inline-block;
+  vertical-align: middle;
 }
 .flavor,
 .dessert {
+  width: 70%;
   text-align: left;
-  width: 75%;
 }
+
 .price {
-  text-align: right;
   width: 25%;
+  text-align: right;
 }
