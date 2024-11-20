@@ -1,6 +1,7 @@
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
+  padding: 20px;
 }
 .established {
   font-style: italic;
@@ -10,6 +11,9 @@ hr {
   border-width: 2px;
   border-color: brown;
   background-color: brown;
+}
+.bottom-line {
+  margin-top: 25px;
 }
 .menu {
   background-color: blanchedalmond;
@@ -25,6 +29,7 @@ h2 {
 }
 h1 {
   font-size: 40px;
+  margin-top: 0;
 }
 h2 {
   font-size: 30px;
@@ -39,6 +44,9 @@ p {
 .price {
   display: inline-block;
   vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 .flavor,
 .dessert {
@@ -49,4 +57,25 @@ p {
 .price {
   width: 25%;
   text-align: right;
+}
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+
+footer a {
+  color: black;
+}
+footer a:visited {
+  color: black;
+}
+footer a:hover {
+  color: brown;
+}
+
+footer a:active {
+  color: brown;
+}
+.address {
+  margin-bottom: 5px;
 }
