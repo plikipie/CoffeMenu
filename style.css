@@ -16,12 +16,18 @@ hr {
   margin-top: 25px;
 }
 .menu {
-  background-color: blanchedalmond;
+  background-color: burlywood;
   width: 80%;
   max-width: 500px;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
 }
 h1,
 h2 {
