@@ -5,6 +5,12 @@ body {
 .established {
   font-style: italic;
 }
+hr {
+  height: 2px;
+  border-width: 2px;
+  border-color: brown;
+  background-color: brown;
+}
 .menu {
   background-color: blanchedalmond;
   width: 80%;
